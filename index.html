@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Tech Returners Surgery</title>
+</head>
+
+<body>
+
+    <h1><a href="index.html">Tech Returners Surgery</a></h1>
+    <p> Contact us at <a href="tel:03330509138">0333 050 9138</a></p>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a>
+                <i class="fas fa-arrow-down"></i>
+                <ul class="nav-items">
+                    <li><a href="#help">GET HELP NOW</a></li>
+                    <li><a href="#self-care">SELF CARE ADVICE</a></li>
+                    <li><a href="#well-being">WELL-BEING CENTRE</a></li>
+                    <li><a href="#repeat-prescriptions ">REPEAT PRESCRIPTIONS</a></li>
+                </ul>
+            </li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="patient-info.html">Patient Information</a></li>
+            <li><a href="well-being.html">Well-being Centre</a></li>
+        </ul>
+    </nav>
+    <input type="text" placeholder="Search.." name="search">
+    <button type="submit"><i class="fa fa-search"></i></button>
+    <section id="notification">
+        <h3>COVID RESTRICTION UPDATE</h3>
+        <p>Throughout the pandemic we have strove to make the surgery as safe as possible for all our patients and
+            staff, we will continue to do so.From the 19TH JULY 2021 NOTHING WILL CHANGE AT THE SURGERY – Patients will
+            still need to wear a mask,
+            socially distance and use hand sanitiser in the surgery and staff will continue to wear PPE.</p>
+        <p>If you arrive without a mask and are not exempt, you will be asked to leave.</p>
+    </section>
+    <section class="surgery-img">
+        <h4>Welcome to the Tech Returners Surgery!</h4>
+        <img src="./images/surgery-img.JPG" alt="Surgery Image" style="width:300px; height:300px" />
+    </section>
+    <section class="my-doc">
+        <h4>How to use Ask My Doc?</h4>
+        <iframe width="420" height="345" src="https://www.youtube.com/embed/sFzCh-HhaWo">
+        </iframe>
+    </section>
+    <section>
+        <h2>Services</h2>
+        <div id="help">
+            <h4>GET HELP NOW</h4>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
+                tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
+                semper. Aenean ultricies mi vitae est. Mauris placerateleifend leo.</p>
+        </div>
+        <div id="self-care">
+            <h4>SELF CARE ADVICE</h4>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
+                tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
+                semper. Aenean ultricies mi vitae est. Mauris placerateleifend leo.</p>
+        </div>
+        <div id="well-being">
+            <h4>WELL-BEING CENTRE</h4>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
+                tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
+                semper. Aenean ultricies mi vitae est. Mauris placerateleifend leo.</p>
+        </div>
+        <div id="repeat-prescriptions">
+            <h4>REPEAT PRESCRIPTIONS</h4>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
+                tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
+                semper. Aenean ultricies mi vitae est. Mauris placerateleifend leo.</p>
+        </div>
+    </section>
+
+    <form action="/action_page.php">
+        <h3>Feedback Form</h3>
+        <input type="checkbox" id="usercheck1">
+        <label for="usercheck1"> Yourself</label>
+        <input type="checkbox" id="usercheck2">
+        <label for="usercheck2"> Someone else</label><br><br>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter first name"><br><br>
+        <label for="lname">Last name : </label>
+        <input type="text" id="lname" name="lname" placeholder="Enter last name"><br><br>
+        <label for="dateofbirth">Date of Birth : </label>
+        <input type="text" id="dateofbirth" name="dateofbirth" placeholder="DD/MM/YY"><br><br>
+        <label for="telephone">Telephone:</label>
+        <input type="text" id="telephone" name="telephone" placeholder="phone number.."><br><br>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email" placeholder=" Enter email"><br><br>
+        <textarea rows="4" cols="50" placeholder="Any queries..."></textarea><br><br>
+        <input type="submit" value="Submit"><br><br>
+    </form>
+    <footer>
+        <address>
+            The Tech Returners Surgery,<br>
+            115 Mancunian Way,<br>
+            Manchester,<br>
+            UK,<br>
+            M20 3PX
+        </address>
+        <section class="opening-hours">
+            <h4>Opening Hours</h4>
+            Monday - Friday : 8am - 7pm <br>
+            Saturday - Sunday : 10am -4pm
+        </section>
+
+        <a href="index.html"><img src="./images/logo.jpg" alt="logo" style="width:100px; height:100px" /></a>
+        <ul>
+            <li><a href="accessiblity">Accessibility</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
