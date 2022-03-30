@@ -10,10 +10,12 @@
 </head>
 
 <body>
-
-    <h1><a href="index.html">Tech Returners Surgery</a></h1>
-    <p> Contact us at <a href="tel:03330509138">0333 050 9138</a></p>
+    <!-- nav tag includes company name and navigation links-->
     <nav>
+        <header>
+            <h1><a href="index.html">Tech Returners Surgery</a></h1>
+            <p> Contact us at <a href="tel:03330509138">0333 050 9138</a></p>
+        </header>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="services.html">Services</a>
@@ -30,8 +32,12 @@
             <li><a href="well-being.html">Well-being Centre</a></li>
         </ul>
     </nav>
-    <input type="text" placeholder="Search.." name="search">
-    <button type="submit"><i class="fa fa-search"></i></button>
+    <!-- search section-->
+    <div class="search-bar">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </div>
+    <!-- update or notification section-->
     <section id="notification">
         <h3>COVID RESTRICTION UPDATE</h3>
         <p>Throughout the pandemic we have strove to make the surgery as safe as possible for all our patients and
@@ -40,43 +46,73 @@
             socially distance and use hand sanitiser in the surgery and staff will continue to wear PPE.</p>
         <p>If you arrive without a mask and are not exempt, you will be asked to leave.</p>
     </section>
+    <!-- surgery image along with welcome caption-->
     <section class="surgery-img">
         <h4>Welcome to the Tech Returners Surgery!</h4>
         <img src="./images/surgery-img.JPG" alt="Surgery Image" style="width:300px; height:300px" />
     </section>
+    <!--Ask my questions -->
     <section class="my-doc">
         <h4>How to use Ask My Doc?</h4>
         <iframe width="420" height="345" src="https://www.youtube.com/embed/sFzCh-HhaWo">
         </iframe>
     </section>
+    <!--services section -->
     <section>
-        <h2>Services</h2>
+        <h3>Services</h3>
         <div id="help">
             <h4>GET HELP NOW</h4>
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
-                tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
-                semper. Aenean ultricies mi vitae est. Mauris placerateleifend leo.</p>
+            <p>At the moment it can be hard to know what to do if you're unwell or have a concern about your health.</p>
+            <p> It's important to:</p>
+            <ul>
+                <li>get medical help if you think you need it</li>
+                <li>keep any appointments or procedures you have booked – unless you’re told not to go</li>
+                <li>go to hospital if you’re advised to</li>
+            </ul>
         </div>
         <div id="self-care">
             <h4>SELF CARE ADVICE</h4>
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
-                tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
-                semper. Aenean ultricies mi vitae est. Mauris placerateleifend leo.</p>
+            <p>Self care is about helping you to better look after the health of you and your family.</p>
+
+            <p>This could include self-treatable conditions, long term conditions, or lifestyle choices to ensure better
+                physical health and mental wellbeing.</p>
+
+            <p>Key focuses around self care:</p>
+            <ul>
+                <li>looking after your own physical health and mental wellbeing as well as that of your family.</li>
+                <li>action you can take on behalf of yourself and others to develop, protect, maintain and improve
+                    health,
+                    wellbeing or wellness.</li>
+                <li>how to use health services; where to access services for particular symptoms and the role of the
+                    pharmacist
+                    in offering fast, convenient health and wellbeing advice.</li>
+            </ul>
         </div>
         <div id="well-being">
             <h4>WELL-BEING CENTRE</h4>
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
-                tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
-                semper. Aenean ultricies mi vitae est. Mauris placerateleifend leo.</p>
+            <blockquote> “By cleansing your body on a regular basis and eliminating as many toxins as possible from your
+                environment,your body can begin to heal itself, prevent disease, and become stronger and more resilient
+                than
+                you ever dreamed possible!”</blockquote>
         </div>
         <div id="repeat-prescriptions">
-            <h4>REPEAT PRESCRIPTIONS</h4>
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
-                tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
-                semper. Aenean ultricies mi vitae est. Mauris placerateleifend leo.</p>
+            <h4>ORDER YOUR REPEAT PRESCRIPTIONS</h4>
+            <p>Use this service to order a repeat prescription.</p>
+            <p>You can only order repeat prescriptions. You cannot order one-off, short-term prescriptions.</p>
+
+            <h5>Who can use this service</h5>
+            <p>You can use this service if the following apply:</p>
+            <ul>
+                <li>you're aged 13 or over</li>
+                <li>you're registered with a GP surgery in England – you can register with a GP surgery if you do not
+                    have
+                    one</li>
+                <li> you've been prescribed a repeat prescription</li>
+            </ul>
         </div>
     </section>
 
+    <!--feedback form-->
     <form action="/action_page.php">
         <h3>Feedback Form</h3>
         <input type="checkbox" id="usercheck1">
@@ -96,6 +132,8 @@
         <textarea rows="4" cols="50" placeholder="Any queries..."></textarea><br><br>
         <input type="submit" value="Submit"><br><br>
     </form>
+
+    <!--footer section-->
     <footer>
         <address>
             The Tech Returners Surgery,<br>
